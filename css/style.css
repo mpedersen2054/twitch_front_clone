@@ -47,7 +47,6 @@ input.text {
   font-size: 12px; }
 
 .top-nav {
-  border-bottom: 1px solid red;
   height: 60px;
   position: relative;
   background: #fff; }
@@ -56,7 +55,7 @@ input.text {
     margin-top: 8px; }
   .top-nav .header-actions {
     float: right;
-    margin-top: 3px; }
+    margin-top: 4px; }
     .top-nav .header-actions .search, .top-nav .header-actions .browse, .top-nav .header-actions .go-turbo,
     .top-nav .header-actions .header-divider, .top-nav .header-actions .log {
       display: inline-block; }
@@ -86,5 +85,40 @@ input.text {
     margin: 5px 20px; }
   .top-nav .log-in {
     margin-right: 20px; }
+
+.jumbotron {
+  background: #aaa;
+  height: 600px; }
+  .jumbotron .top-content {
+    padding: 60px 0;
+    color: #fff; }
+    .jumbotron .top-content a {
+      color: #a68ed2; }
+    .jumbotron .top-content .video {
+      height: 620px;
+      width: 380px;
+      float: left; }
+    .jumbotron .top-content .description {
+      height: 380px;
+      width: 320px;
+      float: right;
+      background: rgba(0, 0, 0, 0.35);
+      padding: 20px;
+      overflow: hidden; }
+      .jumbotron .top-content .description .meta {
+        min-height: 36px;
+        margin-bottom: 20px; }
+        .jumbotron .top-content .description .meta .pic {
+          margin-right: 10px;
+          float: left; }
+        .jumbotron .top-content .description .meta h5 {
+          font-size: 14px;
+          line-height: 1.286; }
+      .jumbotron .top-content .description h2 {
+        font-size: 24px;
+        margin: 20px 0 25px;
+        font-weight: 200; }
+      .jumbotron .top-content .description p {
+        margin-bottom: 12px; }
 
 /*# sourceMappingURL=style.css.map */
