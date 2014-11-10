@@ -1,3 +1,24 @@
+*, *:before, *:after {
+  box-sizing: border-box; }
 
+body {
+  font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.5; }
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.top-nav {
+  border-bottom: 1px solid red;
+  height: 50px;
+  position: relative;
+  padding: 5px 0;
+  background: #fff; }
+  .top-nav .logo {
+    float: left; }
+  .top-nav .header-actions {
+    float: right; }
 
 /*# sourceMappingURL=style.css.map */
