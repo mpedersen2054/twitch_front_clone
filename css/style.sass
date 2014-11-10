@@ -5,23 +5,56 @@ $purp: #6441a5
 @import 'pieces/top-nav'
 @import 'pieces/jumbotron'
 @import 'pieces/featured'
+@import 'pieces/follow-news'
 
 
-
-.follow-news
-  text-align: center
-  background-image: url('http://www-cdn.jtvnw.net/images/xarth/pages/front/splash.png')
-  background-repeat: no-repeat
-  background-position: center center
+.top-live-channels
 
   .container
-    padding: 50px 20px
+    padding: 60px 0 90px 0
 
   h2
-    margin: 20px 0 25px
     font-size: 28px
     line-height: 1.29
+    margin: 20px 0 25px
+    span
+      margin-left: 10px
+      color: #999
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
+      font-size: 80%
+      font-weight: 200
 
-  .button
-    margin: 0 10px
+  .videos
 
+    .video
+      position: relative
+      float: left
+      width: 300px
+      margin: 20px 20px 0 0
+      &:nth-child(3n)
+        margin-right: 0
+      .content
+        .title
+          height: 20px
+          overflow: hidden
+      .thumb
+        position: relative
+
+      .boxart
+        border: 1px solid #fff
+        position: absolute
+        right: 0
+        bottom: 40px
+
+  .browse-games
+    text-align: right
+    position: relative
+    top: 40px
+    h4
+      font-size: 16px
+      line-height: 1.25
+    a::after
+      content: "\00bb"
+      margin-left: 10px
+      font-family: Arial
+      font-size: 18px
