@@ -47,6 +47,17 @@ input.text {
   padding: 0 10px;
   font-size: 12px; }
 
+.button.primary.large {
+  min-width: 40px;
+  padding: 0 20px;
+  font-size: 14px; }
+
+.full-light {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2), 0 0 0 -1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2), 0 0 0 -1px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2), 0 0 0 -1px rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.05); }
+
 .top-nav {
   height: 60px;
   position: relative;
@@ -181,5 +192,19 @@ input.text {
       margin-left: 10px;
       font-family: Arial;
       font-size: 18px; }
+
+.follow-news {
+  text-align: center;
+  background-image: url("http://www-cdn.jtvnw.net/images/xarth/pages/front/splash.png");
+  background-repeat: no-repeat;
+  background-position: center center; }
+  .follow-news .container {
+    padding: 50px 20px; }
+  .follow-news h2 {
+    margin: 20px 0 25px;
+    font-size: 28px;
+    line-height: 1.29; }
+  .follow-news .button {
+    margin: 0 10px; }
 
 /*# sourceMappingURL=style.css.map */
