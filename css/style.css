@@ -91,12 +91,11 @@ input.text {
   height: 600px; }
   .jumbotron .top-content {
     padding: 60px 0;
-    color: #fff; }
+    color: #fff;
+    height: 380px; }
     .jumbotron .top-content a {
       color: #a68ed2; }
     .jumbotron .top-content .video {
-      height: 620px;
-      width: 380px;
       float: left; }
     .jumbotron .top-content .description {
       height: 380px;
@@ -104,7 +103,7 @@ input.text {
       float: right;
       background: rgba(0, 0, 0, 0.35);
       padding: 20px;
-      overflow: hidden; }
+      overflow: auto; }
       .jumbotron .top-content .description .meta {
         min-height: 36px;
         margin-bottom: 20px; }
@@ -120,5 +119,15 @@ input.text {
         font-weight: 200; }
       .jumbotron .top-content .description p {
         margin-bottom: 12px; }
+  .jumbotron .bottom-content {
+    height: 116px;
+    background: rgba(0, 0, 0, 0.35);
+    margin-top: 39.2px; }
+    .jumbotron .bottom-content .js-nav {
+      float: left;
+      display: inline-block;
+      margin: 20px 20px 0 0; }
+      .jumbotron .bottom-content .js-nav:last-child {
+        margin-right: 0; }
 
 /*# sourceMappingURL=style.css.map */
