@@ -1,0 +1,51 @@
+.featured
+  padding-top: 60px
+  padding-bottom: 60px
+
+  h2
+    font-size: 28px
+    line-height: 1.29
+    margin: 20px 0 25px
+    span
+      margin-left: 10px
+      font-size: 80%
+      font-weight: 200
+      color: #999
+
+  .games-container
+    width: 100%
+    height: 580px
+    // border: 1px solid red
+    overflow: hidden
+
+    .game
+      float: left
+      display: inline-block
+      width: 140px
+      height: 270px
+      margin: 20px 20px 0 0
+      overflow: hidden
+      &:nth-child(6n)
+        margin-right: 0
+      .boxart
+        margin-bottom: 10px
+      .meta
+        p
+          width: 100%
+        .title
+          font-size: 14px
+          color: #3b3b3b
+        .info
+          color: #8c8c8c
+
+  .browse-games
+    text-align: right
+    margin-top: 40px
+    h4
+      font-size: 16px
+      line-height: 1.25
+    a::after
+      content: "\00bb"
+      margin-left: 10px
+      font-family: Arial
+      font-size: 18px
