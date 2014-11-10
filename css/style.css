@@ -51,46 +51,40 @@ input.text {
   height: 60px;
   position: relative;
   background: #fff; }
-
-.logo {
-  float: left;
-  margin-top: 8px; }
-
-.header-actions {
-  float: right;
-  margin-top: 3px; }
-  .header-actions .search, .header-actions .browse, .header-actions .go-turbo,
-  .header-actions .header-divider, .header-actions .log {
-    display: inline-block; }
-
-#header-search {
-  margin-right: 20px; }
-  #header-search .text {
-    width: 200px;
-    background-color: #fff;
-    background-image: url("../images/header_search_icon.svg");
-    background-repeat: no-repeat;
-    background-position: 4px center;
-    text-indent: 20px;
-    margin: 0; }
-    #header-search .text:focus {
-      outline: 0;
-      box-shadow: 0 0 3px 1px rgba(185, 155, 235, 0.75);
-      -webkit-box-shadow: 0 0 3px 1px rgba(185, 155, 235, 0.75);
-      border: 1px solid rgba(100, 65, 165, 0.75); }
-
-.go-turbo {
-  margin-left: 20px; }
-
-.header-divider {
-  position: relative;
-  top: 10px;
-  border-right: 1px solid rgba(0, 0, 0, 0.2);
-  width: 0;
-  height: 20px;
-  margin: 5px 20px; }
-
-.log-in {
-  margin-right: 20px; }
+  .top-nav .logo {
+    float: left;
+    margin-top: 8px; }
+  .top-nav .header-actions {
+    float: right;
+    margin-top: 3px; }
+    .top-nav .header-actions .search, .top-nav .header-actions .browse, .top-nav .header-actions .go-turbo,
+    .top-nav .header-actions .header-divider, .top-nav .header-actions .log {
+      display: inline-block; }
+  .top-nav #header-search {
+    margin-right: 20px; }
+    .top-nav #header-search .text {
+      width: 200px;
+      background-color: #fff;
+      background-image: url("../images/header_search_icon.svg");
+      background-repeat: no-repeat;
+      background-position: 4px center;
+      text-indent: 20px;
+      margin: 0; }
+      .top-nav #header-search .text:focus {
+        outline: 0;
+        box-shadow: 0 0 3px 1px rgba(185, 155, 235, 0.75);
+        -webkit-box-shadow: 0 0 3px 1px rgba(185, 155, 235, 0.75);
+        border: 1px solid rgba(100, 65, 165, 0.75); }
+  .top-nav .go-turbo {
+    margin-left: 20px; }
+  .top-nav .header-divider {
+    position: relative;
+    top: 10px;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    width: 0;
+    height: 20px;
+    margin: 5px 20px; }
+  .top-nav .log-in {
+    margin-right: 20px; }
 
 /*# sourceMappingURL=style.css.map */
