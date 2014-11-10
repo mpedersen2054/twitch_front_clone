@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Twitch</title>
 
+  <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -13,28 +14,28 @@
     
     <div class="logo">
       <a href="#">
-        <img src="images/logo.jpg" alt="" width="95px" height="35px">
+        <img src="images/logo.jpg" alt="" width="100px" height="42px">
       </a>
     </div>
 
     <div class="header-actions">
       <div class="search">
-        <form action="/search">
-          <input type="text" autocomplete="off" name="query" tabindex="99" placeholder="search">
+        <form action="/search" id="header-search">
+          <input type="text" class="text" autocomplete="off" name="query" tabindex="99" placeholder="Search">
         </form>
       </div>
-      <a href="#" class="browse">
+      <a href="#" class="browse button">
         <span>Browse</span>
       </a>
-      <a href="#" class="go-turbo">
+      <a href="#" class="go-turbo button">
         <span>Go Turbo</span>
       </a>
       <div class="header-divider"></div>
       <div class="log">
-        <a href="#" class="log-in">
+        <a href="#" class="log-in button">
           <span>Log In</span>
         </a>
-        <a href="#" class="sign-up">
+        <a href="#" class="sign-up button primary">
           <span>Sign Up</span>
         </a>
       </div>
