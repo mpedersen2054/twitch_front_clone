@@ -8,7 +8,8 @@ body {
   line-height: 1.5; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #6441a5; }
 
 .container {
   width: 940px;
