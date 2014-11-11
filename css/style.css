@@ -200,7 +200,7 @@ input.text {
   background-repeat: no-repeat;
   background-position: center center; }
   .follow-news .container {
-    padding: 50px 20px; }
+    padding: 50px 20px 75px; }
   .follow-news h2 {
     margin: 20px 0 25px;
     font-size: 28px;
@@ -245,6 +245,48 @@ input.text {
     font-size: 16px;
     line-height: 1.25; }
   .top-live-channels .browse-games a::after {
+    content: "»";
+    margin-left: 10px;
+    font-family: Arial;
+    font-size: 18px; }
+
+.top-xbox-channels .container {
+  padding: 60px 0 90px 0; }
+.top-xbox-channels h2 {
+  font-size: 28px;
+  line-height: 1.29;
+  margin: 20px 0 25px; }
+  .top-xbox-channels h2 span {
+    margin-left: 10px;
+    color: #999;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 80%;
+    font-weight: 200; }
+.top-xbox-channels .videos .video {
+  position: relative;
+  float: left;
+  width: 300px;
+  margin: 20px 20px 0 0; }
+  .top-xbox-channels .videos .video:nth-child(3n) {
+    margin-right: 0; }
+  .top-xbox-channels .videos .video .content .title {
+    height: 20px;
+    overflow: hidden; }
+  .top-xbox-channels .videos .video .thumb {
+    position: relative; }
+  .top-xbox-channels .videos .video .boxart {
+    border: 1px solid #fff;
+    position: absolute;
+    right: 0;
+    bottom: 40px; }
+.top-xbox-channels .browse-games {
+  text-align: right;
+  position: relative;
+  top: 40px; }
+  .top-xbox-channels .browse-games h4 {
+    font-size: 16px;
+    line-height: 1.25; }
+  .top-xbox-channels .browse-games a::after {
     content: "»";
     margin-left: 10px;
     font-family: Arial;
