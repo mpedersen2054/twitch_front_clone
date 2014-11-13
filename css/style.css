@@ -292,4 +292,46 @@ input.text {
     font-family: Arial;
     font-size: 18px; }
 
+.top-ps-channels .container {
+  padding: 60px 0 90px 0; }
+.top-ps-channels h2 {
+  font-size: 28px;
+  line-height: 1.29;
+  margin: 20px 0 25px; }
+  .top-ps-channels h2 span {
+    margin-left: 10px;
+    color: #999;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 80%;
+    font-weight: 200; }
+.top-ps-channels .videos .video {
+  position: relative;
+  float: left;
+  width: 300px;
+  margin: 20px 20px 0 0; }
+  .top-ps-channels .videos .video:nth-child(3n) {
+    margin-right: 0; }
+  .top-ps-channels .videos .video .content .title {
+    height: 20px;
+    overflow: hidden; }
+  .top-ps-channels .videos .video .thumb {
+    position: relative; }
+  .top-ps-channels .videos .video .boxart {
+    border: 1px solid #fff;
+    position: absolute;
+    right: 0;
+    bottom: 40px; }
+.top-ps-channels .browse-games {
+  text-align: right;
+  position: relative;
+  top: 40px; }
+  .top-ps-channels .browse-games h4 {
+    font-size: 16px;
+    line-height: 1.25; }
+  .top-ps-channels .browse-games a::after {
+    content: "»";
+    margin-left: 10px;
+    font-family: Arial;
+    font-size: 18px; }
+
 /*# sourceMappingURL=style.css.map */
